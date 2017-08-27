@@ -1,4 +1,4 @@
-# goconstruct
+# goconstraint
 
  Package goconstraint is a lightweight way for you to declare that your code
  requires a minimum Go runtime version, using a blank import.
