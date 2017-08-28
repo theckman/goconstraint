@@ -37,8 +37,12 @@ The purpose of this project is to be able to easily enforce Go runtime version
 constraints, while providing a useful error to developers without requiring that
 developers redeclare functions, variables, or constants.
 
-You can find out more about the approach taken to get here in this test
-repository:
+You can read the blog post that was written about the problem that inspired this
+package here:
+
+* https://medium.com/@theckman/version-constraints-and-go-c9309be15773
+
+You can also find the experimental code from that blog post here:
 
 * https://github.com/theckman/constraint-test
 
