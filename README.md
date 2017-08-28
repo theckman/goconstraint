@@ -9,6 +9,34 @@ This package is licensed under the `MIT License`. Please see
 the [LICENSE](https://github.com/theckman/goconstraint/blob/master/LICENSE) file
 for more details.
 
+## Rationale
+
+While functionality of a file can be guarded with build tags, it has the side
+effect of all code in that file no longer being compiled. While this initially
+seems like a desirable experience, this means that none of the items in that
+file get compiled.
+
+So when the building of the project fails, it's not because the Go version is
+too old, but because a referenced thing is missing (variable, constant, or
+function). This can be confusing to developers, as it looks like source code is
+missing and not that the Go runtime version is too old.
+
+Also, depending on what Go functionality you depend on, it may not automatic
+result in a build failure. For example, `time.Now()` works with
+`time.Time.Sub()` across leap seconds as of Go 1.9+. This was not the case in
+older versions, and would cause unexpected behaviors. This required no API
+changes, so the bug will be silently compiled in to your program if using an
+older Go toolchain.
+
+The purpose of this project is to be able to easily enforce Go runtime version
+constraints, while providing a useful error to developers without requiring that
+developers redeclare functions, variables, or constants.
+
+You can find out more about the approach taken to get here in this test
+repository:
+
+* https://github.com/theckman/constraint-test
+
 ## Usage
 
  Say you wanted to require that your code only build with Go 1.9+, you would
