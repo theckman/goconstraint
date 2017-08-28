@@ -1,6 +1,4 @@
-// Copyright (c) 2017 Tim Heckman
-// Use of this source code is governed by the MIT License that can be found in
-// the LICENSE file at the root of this repository.
+// The contents of this file has been released in to the Public Domain.
 
 // Package goconstraint is a lightweight way for you to declare that your code
 // requires a minimum Go runtime version, using a blank import.
