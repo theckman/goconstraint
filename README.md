@@ -5,9 +5,14 @@
 
 ## License
 
-This package is licensed under the `MIT License`. Please see
-the [LICENSE](https://github.com/theckman/goconstraint/blob/master/LICENSE) file
-for more details.
+This package is released under two software licenses (MIT | Public Domain):
+
+* The `scripts/` directory is released under the `MIT License`. This license can
+  be found in the `LICENSES` directory as `mit.txt`
+  ([here](https://github.com/theckman/goconstraint/blob/master/LICENSES/mit.txt)).
+* All other files are released to the Public Domain using The Unlicense . This
+  license can be found in the `LICENSES` directory as `unlicense.txt`
+  ([here](https://github.com/theckman/goconstraint/blob/master/LICENSES/unlicense.txt)).
 
 ## Rationale
 

@@ -1,6 +1,4 @@
-// Copyright (c) 2017 Tim Heckman
-// Use of this source code is governed by the MIT License that can be found in
-// the LICENSE file at the root of this repository.
+// The contents of this file has been released in to the Public Domain.
 
 // Package gtego19 should only be used as a blank import. If imported, it
 // will only compile if the Go runtime version is >= 1.9.
