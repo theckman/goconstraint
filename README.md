@@ -56,10 +56,11 @@ You can also find the experimental code from that blog post here:
 import _ "github.com/theckman/goconstraint/go1.9/gte"
 ```
 
- All go versions, that can be restricted by build tag, have been supported (Go
- 1.1+). It's also recommended that you include a comment with the import, to
- indicate which functionality/feature is required from that Go version (while
- also including a Golang issue link if possible).
+ All go versions, that can be restricted by build tag, are supported (Go 1.1+).
+
+ It's recommended that you include a comment with the import, to indicate
+ which functionality/feature is required from that Go version (while also
+ including a Golang issue link if possible).
 
  If you try to build a project against a runtime that's too old, you'll see a
  build failure similar to this with the version number changing based on the
