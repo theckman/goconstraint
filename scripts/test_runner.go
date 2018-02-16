@@ -1,4 +1,4 @@
-// Copyright (c) 2017 Tim Heckman
+// Copyright (c) 2017-2018 Tim Heckman
 // Use of this source code is governed by the MIT License that can be found in
 // the LICENSE file at the root of this repository.
 
